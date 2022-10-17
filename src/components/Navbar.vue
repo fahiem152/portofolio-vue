@@ -6,14 +6,14 @@
 <template>
     <nav>
         <div class="logo">
-            <a href="/">Website Portofolio Pribadi</a>
+            <a href="#">Website Portofolio Pribadi</a>
         </div>
 
 
         <ul>
-            <li><a href="/">HomePage</a></li>
-            <li><a href="/">ContactForm</a></li>
-            <li><a href="/">Projects</a></li>
+            <li><a href="#">HomePage</a></li>
+            <li><a href="#">ContactForm</a></li>
+            <li><a href="#">Projects</a></li>
         </ul>
     </nav>
 </template>
