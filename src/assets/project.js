@@ -20,7 +20,7 @@ export const project = {
         {
             "id": 4,
             "title": "Wisata Jawa Tengah",
-            "image": 'public/https://live.staticflickr.com/65535/52433990184_02303e1fcd_n.jpgproject4.png',
+            "image": 'https://live.staticflickr.com/65535/52433990184_02303e1fcd_n.jpg',
             "deskripsi": 'Wisata Jawa Tengah adalah project atau tugas yang digunakan untuk menyelesaikan submission kelas Flutter Pemula di platform Dicoding. Wisata Jawa Tengah adalah aplikasi multi-platform yang artinya dapat di jalankan dari beberapa OS, seperti android, ios, windows dan juga web browser(chrome). Wisata Jawa Tengah adalah aplikasi yang menyediakan list wisata - wisata terbaika di Jawa Tengah. Apps Wisata Jawa Tengah ini dibagun menggunakan Teknologi framework Flutter. Flutter sendiri meenggunakan bahasa pemrograman dart.'
         },
         {
