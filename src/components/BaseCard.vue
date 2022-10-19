@@ -1,60 +1,26 @@
-<script>
-// import { reactive } from 'vue';
-
-// import BaseCard from './BaseCard.vue';
+<!-- <script>
 import { mapState } from 'pinia';
 import projectStore from '../stores/project.js';
-
-export default {
-    name: "ListProject",
-    computed: {
-        ...mapState(projectStore, ["g$listproject"])
-    },
-    
-    // setup()  {
-    //     const state = reactive(projectStore["g$listproject"]);
-    //     return {
-    //         state,
-    //     };
-    // },
-    
-    // components: { BaseCard }
-};
-    
-
+   export default {
+    name: 'BaseCard'
+   props: 
+   }
 </script>
 <template>
     <h1 class="judul-list">List Project</h1>
-    <div class="list-project" >
-
-
-        
-    <div class="container" v-for="(project, index) in g$listproject" :key="index">
-        <h4>{{ project.title }}</h4>
-        <img :src= "project.image">
-        <router-link :to="{name: 'productdetail', params: {id : project.id} }">
-            <button class="detail" >Detail Project</button>
-        </router-link>
-        
-    </div>
-     
-      
+    <div class="list-project">
+        <div class="container">
+            <h4></h4>
+            <img src= "">
+            <router-link  :to="{name: 'productdetail', params: {id : project.id} }">
+                <button class="detail" >Detail Project</button>
+            </router-link>
+            
+        </div>
     </div>
 </template>
 <style>
-
-.judul-list {
-    color: aqua;
-    text-align: center;
-    letter-spacing: 5px;
-    font-size: 32px;
-    margin-bottom: 50px;
-    margin-top: 50px;
-    letter-spacing: 5px;
-    font-weight: bold;
-
-}
-
+    
 .list-project {
 
  
@@ -114,6 +80,7 @@ export default {
     letter-spacing: 3px;
     
 }
+
 @media screen and (max-width: 801px) {
     .list-project{
         display: grid;
@@ -131,4 +98,4 @@ export default {
         margin-left: 28px;
     }
 }
-</style>
+</style> -->
