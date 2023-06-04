@@ -15,7 +15,7 @@ export default {
     <main>
         <Navbar/>
         <HomePorto />
-        <CoursePorto/>
+        <!-- <CoursePorto/> -->
          <!-- <SkillPorto/> -->
         <!-- <ContactForm /> -->
         <ListProject/>
