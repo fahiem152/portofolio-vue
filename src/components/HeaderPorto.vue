@@ -1,4 +1,4 @@
-<script>
+<!-- <script>
 export default {
     name: "HeaderPorto"
 }
@@ -8,7 +8,7 @@ export default {
         
         <div class="deskripsi">
             <h1>Ahmad Muhammad Fahiem</h1>
-            <h3>Universitas AKI</h3><br> 
+
             <p>Seorang mahasiswa semester 5 dengan jurusan Teknik Informatika, domisili di Kabupaten Demak. Saya merupakan individu yang memiliki antusias dan motivasi tinggi. Sedang mencari kesempatan untuk mengembangkan kemampuan saya di bidang pengembang aplikasi. Saya sangat senang belajar hal baru untuk meningkatkan kemampuan saya. Hobi saya Berneang, Bermain Basket, Mendengarkan Music</p>
         </div>
         <img
@@ -76,4 +76,4 @@ img {
     }
   
 }
-</style>
+</style> -->

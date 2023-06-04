@@ -31,9 +31,9 @@ export const project = {
         },
         {
             "id": 6,
-            "title": 'Bookshelf Apps',
+            "title": 'Bookshelf Api',
             "image": 'https://live.staticflickr.com/65535/52433990229_35c02163f3_b.jpg',
-            "deskripsi": 'Bookshelf Apps adalah project atau tugas yang digunakan untuk menyelesaikan submission Front End Pemula di platform Dicoding. Bookshelf Apps adalah sebua apps website yang digunakan untuk menyimpan buku baru yang berisi field judul, penulis, tahun, dan memliki field yang bertipe boolean selesai di baca. terdapat duna rak buku yaitu rak buku yang belum selesai di baca dan rak buku yang sudah selesai di baca. Bookshelf Apps ini dibangung menggunakan teknologi html, css, dan javasscript murni atau tidak menggunakan framework apapun. Bookshelf Apps ini sudah menerapkan web storage untuk menyimpan data data seperti judul, penulis, tahun dan sudah dibaca, web storage nya menggunakan local storage.'
+            "deskripsi": 'Bookshelf Api adalah project atau tugas yang digunakan untuk menyelesaikan submission Back End Pemula di platform Dicoding. Bookshelf Api adalah sebua Api  yang digunakan untuk menyimpan buku baru yang berisi field judul, penulis, tahun, dan memliki field yang bertipe boolean selesai di baca dan masih banyak lagi. Bookshelf Api ini dibangun menggunakan teknologi Node Js dan Hapi. Bookshelf Api ini terdapat fitur seperti menambahkan buku, melihat semua buku, melihat detail buku, mengubah buku, menghapus buku.'
         },
     ]
 }

@@ -20,12 +20,12 @@ const router = createRouter({
     //   name: 'home',
     //   component: HomeView
     // },
-    // {
-    //   path: '/form',
-    //   name: 'form',
+    {
+      path: '/form',
+      name: 'form',
       
-    //   component: () => import('../views/FormView.vue')
-    // },
+      component: () => import('../views/FormView.vue')
+    },
     // {
     //   path: '/about',
     //   name: 'about',

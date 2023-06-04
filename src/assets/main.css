@@ -4,8 +4,9 @@
   max-width: 1280px;
   margin: 0 auto;
   padding: 2rem;
-  background-color: rgb(26, 23, 23);
+  background-color: #e7ebef;
   font-weight: normal;
+  font-family: 'poppins', sans-serif;
 }
 
 a,
@@ -19,6 +20,253 @@ a,
   a:hover {
     background-color: hsla(160, 100%, 37%, 0.2);
   }
+}
+.judul-list {
+  color: black;
+  text-align: center;
+  letter-spacing: 5px;
+  font-size: 32px;
+  margin-bottom: 50px;
+  margin-top: 50px;
+  letter-spacing: 5px;
+  font-weight: bold;
+
+}
+nav {
+  margin-top: -65px;
+  display: flex;
+  justify-content: space-around;
+  background-color: rgb(26, 23, 23);
+  height: 75px;
+  align-items: center;
+  padding: 5px;
+  border-bottom-left-radius: 16px;
+  border-bottom-right-radius: 16px;
+  top: 0;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+  width: 40%;
+  justify-content: space-between
+}
+
+nav ul li a {
+  text-decoration: none;
+  font-size: 20px;
+  color: #ffffff;
+  font-weight: 500;
+
+
+}
+
+nav li a:hover {
+  color: aqua;
+  background-color: transparent;
+}
+.logo a:hover{
+  background-color: transparent;
+  color: aqua;
+}
+.logo a{
+  font-size: 32px;
+  font-weight: bold;
+  letter-spacing: 3px;
+  color: #ffffff;
+}
+
+@media screen and (max-width: 801px) {
+
+  nav  {
+      width: 100%;
+  }
+  .logo a{
+      font-size: 24px;
+      letter-spacing: 1px;
+  }
+  nav ul li{
+      margin-right: 25px;
+  }
+  nav ul li a{
+      font-size: 16px;
+      margin-left: -20px;
+             
+  }
+}
+
+@media screen and (max-width: 429px) {
+  nav ul {
+      display: none;
+  }
+  .logo{
+      text-align: center;
+      justify-content: center;
+  }
+  .logo a{
+      letter-spacing: 2px;
+      font-size: 16px;
+      text-align: center;
+      justify-content: center;
+      align-items: center;
+  }
+}
+
+.containerContact{
+  display: grid;
+  grid-template-columns: 20% 20% 20% 20% 20%;
+  margin: 4em 1em;
+}
+.serviceContact {
+  border-radius: 10px;
+  box-shadow: 10px;
+  margin: 10px;
+  padding: 32px;
+  background-color: #ffffff;
+  box-shadow:  -2px -2px 2px rgba(0,0,0,0.8);
+  
+}
+
+.serviceContact img{
+ 
+  width: 100px;
+  height: 100px;
+  margin: 0 auto;
+  display: block;
+}
+.containerSkill{
+  display: grid;
+  grid-template-columns: 25% 25% 25% 25%;
+  margin: 4em 1em;
+
+}
+.service {
+  border-radius: 10px;
+  box-shadow: 10px;
+  margin: 10px;
+  padding: 32px;
+  background-color: #ffffff;
+  box-shadow:  2px 2px 2px rgba(0,0,0,0.8);
+  
+}
+
+.service img{
+ 
+  width: 100px;
+  height: 100px;
+  margin: 0 auto;
+  display: block;
+}
+
+.service h4 {
+
+  text-align: center;
+  margin-top: 40px;
+
+  color: #000;
+}
+
+#home {
+  display: flex;
+  width: 95%;
+  color: whitesmoke;
+  justify-content: space-between;
+  margin: 24px;
+
+}
+
+img {
+  margin-left: 24px;
+  width: 25%;
+  border-radius: 25px;
+  object-fit: cover;
+}
+
+.deskripsi {
+  width: 70%;
+}
+
+.deskripsi p{
+  text-align: justify;
+  font-weight: 300;
+  letter-spacing: 3px;
+  color: #000;
+}
+.deskripsi h1{
+
+  font-weight: bold;
+  font-size: 28px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+
+
+
+  color: black;
+
+}
+.button{
+  margin-top: 12px;
+  background-color: aqua;
+  padding: 24px;
+  width: 200px;
+  border-radius: 10px;
+  box-shadow: 2px 2px 2px rgba(0,0,0,0.8);
+  transition: background-color 0.3s ease;
+}
+.button:hover{
+  margin-top: 12px;
+  background-color: rgb(0, 0, 0);
+  padding: 24px;
+  width: 200px;
+  border-radius: 10px;
+  box-shadow: -2px -2px -2px rgba(255, 255, 255, 0.8);
+}
+.button p{
+  text-align: center;
+  color: #000;
+  font-weight: 700;
+}
+.button p:hover{
+  text-align: center;
+  color: #ffffff;
+  font-weight: 700;
+}
+
+.containerCourse{
+  display: grid;
+  grid-template-columns: 50%, auto;
+  margin: 4em 1em;
+}
+.serviceCourse{
+  width: 50%;
+}
+
+@media screen and (max-width: 801px) {
+  .deskripsi{
+      margin-right: 10px;
+  }
+  .deskripsi h1{
+      font-size: 20px;
+  }
+}
+@media screen and (max-width: 429px) {
+  #home{
+      margin-top: 50px;
+      display: flex;
+      flex-direction: column;
+  }
+  .deskripsi{
+      width: 100%;
+      margin-bottom: 50px;
+  }
+  .deskripsi h1{
+      font-size: 16px;
+      letter-spacing: 1px;
+  }
+  .deskripsi p{
+      letter-spacing: 1px;
+  }
+
 }
 
 /* @media (min-width: 1024px) {

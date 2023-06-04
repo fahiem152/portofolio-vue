@@ -32,7 +32,7 @@ import Navbar from '../components/Navbar.vue';
    
 }
 .detail-content h1{
-    color: aqua;
+    color: rgb(0, 0, 0);
     text-align: center;
     letter-spacing: 5px;
     font-size: 32px;
@@ -54,7 +54,7 @@ import Navbar from '../components/Navbar.vue';
     font-size: 24px;
     letter-spacing: 5px;
     text-align: justify;
-    color: whitesmoke;
+    color: rgb(28, 24, 24);
 }
 @media screen and (max-width: 429px) {
     .detail-content h1{
