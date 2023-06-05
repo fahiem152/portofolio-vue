@@ -1,11 +1,11 @@
 {
     "version": 2,
     "builds": [{
-        "src": "main.js",
+        "src": "App.vue",
         "use": "@vercel/node"
     }],
     "routes": [{
         "src": "/(.*)",
-        "dest": "main.js"
+        "dest": "App.vue"
     }]
 }
