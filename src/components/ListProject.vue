@@ -24,7 +24,8 @@ export default {
 
 </script>
 <template>
-    <h1 class="judul-list">List Project</h1>
+    <section id="Project">
+    <h1 class="judul-list">Project</h1>
     <div class="list-project" >
 
 
@@ -37,9 +38,8 @@ export default {
         </router-link>
         
     </div>
-     
-      
     </div>
+</section>
 </template>
 <style>
 
