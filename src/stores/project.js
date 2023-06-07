@@ -8,40 +8,40 @@ const projectStore = defineStore({
     state: () => ({
         list: [
             {
-                "id": "1",
+                "id": 1,
                 "title": "Website Demak",
-                "image": 'public/project1.png',
-                "deskripsi": 'Website Demak adalah project atau tugas yang digunakan untuk menyelesaikan submission kelas Dasar Pemrograman Web di platform Dicoding. Webisite Demak ini sendiri berisi tentang Sejarah kabupaten Demak, wisata - wisata yang ada di kabupaten demak, kuliner - kuliner yang ada di kabupaten demak, dan Profile Kabupaten Demak. Webiste ini dibangun menggunakan Teknologi html, css dan javascript murni atau dibuat tanpa menggunakan framework sama sekali.'
+                "image": 'https://i.postimg.cc/9FDKkMJv/project1.png',
+                "deskripsi": 'Website Demak is a project or task that is used to complete the submission of Basic Web Programming classes on the Dicoding platform. The Demak website itself contains the history of Demak district, tours in Demak district, culinary delights in Demak district, and Profile of Demak district. This website was built using pure html, css and javascript technology or was created without using a framework at all.'
             },
             {
-                "id": "2",
+                "id": 2,
                 "title": 'Bookshelf Apps',
-                "image": 'public/project2.png',
-                "deskripsi": 'Bookshelf Apps adalah project atau tugas yang digunakan untuk menyelesaikan submission Front End Pemula di platform Dicoding. Bookshelf Apps adalah sebua apps website yang digunakan untuk menyimpan buku baru yang berisi field judul, penulis, tahun, dan memliki field yang bertipe boolean selesai di baca. terdapat duna rak buku yaitu rak buku yang belum selesai di baca dan rak buku yang sudah selesai di baca. Bookshelf Apps ini dibangung menggunakan teknologi html, css, dan javasscript murni atau tidak menggunakan framework apapun. Bookshelf Apps ini sudah menerapkan web storage untuk menyimpan data data seperti judul, penulis, tahun dan sudah dibaca, web storage nya menggunakan local storage.'
+                "image": 'https://i.postimg.cc/vHDwdXH2/project2.png',
+                "deskripsi": 'Bookshelf Apps are projects or tasks used to complete Beginner Front End submissions on the Dicoding platform. Bookshelf Apps is a website app that is used to store new books that contain fields for title, author, year, and have fields of type Boolean when they ve been read. There are two bookshelves, namely bookshelves that have not been read yet and bookshelves that have been read. This Bookshelf Apps was built using pure html, css and javascript technology or did not use any framework. This Bookshelf Apps has implemented web storage to store data such as title, author, year and read, the web storage uses local storage.'
             },
             {
-                "id": "3",
+                "id": 3,
                 "title": 'Web Calculator',
-                "image": 'public/project3.png',
-                "deskripsi": 'Web Calculator adalah suatu kuis dalam kelas  Front End Pemula di platform Dicoding. Web Calculator adalah sebuah Web perhitungan kalkulator sederhan yang memiliki fungsi tambah, kurang, kali, bagi. Web calculator juga bisa menampilkan history perhitungan dalam limit tertentu. Web calculator ini dibangung menggunakan teknologi html, css, dan javasscript murni atau tidak menggunakan framework apapun. web calculator ini sudah menerapkan web storage untuk menyimpan data data seperti angka, operator dan hasil perhitungan. web storage nya menggunakan local storage.'
+                "image": 'https://i.postimg.cc/TYSM2mKd/project3.png',
+                "deskripsi": 'Web Calculator is a quiz in the Beginner Front End class on the Dicoding platform. Web Calculator is a simple Web calculator calculation that has the function of adding, subtracting, multiplying, dividing. The web calculator can also display calculation history within certain limits. This web calculator is built using pure html, css and javascript technology or does not use any framework. This web calculator has implemented web storage to store data such as numbers, operators and calculation results. the web storage uses local storage.'
             },
             {
-                "id": "4",
+                "id": 4,
                 "title": "Wisata Jawa Tengah",
-                "image": 'public/project4.png',
-                "deskripsi": 'Wisata Jawa Tengah adalah project atau tugas yang digunakan untuk menyelesaikan submission kelas Flutter Pemula di platform Dicoding. Wisata Jawa Tengah adalah aplikasi multi-platform yang artinya dapat di jalankan dari beberapa OS, seperti android, ios, windows dan juga web browser(chrome). Wisata Jawa Tengah adalah aplikasi yang menyediakan list wisata - wisata terbaika di Jawa Tengah. Apps Wisata Jawa Tengah ini dibagun menggunakan Teknologi framework Flutter. Flutter sendiri meenggunakan bahasa pemrograman dart.'
+                "image": 'https://i.postimg.cc/CMP9JDHG/project4.png',
+                "deskripsi": 'Central Java Tourism is a project or assignment that is used to complete a Beginner Flutter class submission on the Dicoding platform. Central Java Tourism is a multi-platform application which means it can be run from several OS, such as Android, iOS, Windows and also a web browser (Chrome). Central Java Tourism is an application that provides a list of the best tours in Central Java. This Central Java Travel Application is built using the Flutter framework technology. Flutter itself uses the Dart programming language.'
             },
             {
-                "id": "5",
+                "id": 5,
                 "title": 'Shamo Apps',
-                "image": 'public/project5.png',
-                "deskripsi": 'Shamo Apps adalah project atau tugas yang digunakan untuk menyelesaikan submission kelas Flutter  di platform BuildWith Angga. Shamo apps adalah aplikasi multi-platform yang artinya dapat di jalankan dari beberapa OS, seperti android, ios, windows dan juga web browser(chrome). Shamo apps adalah aplikasi toko septau yang menjual beberapa merek dan jenis sepatu. Shamo Apps ini dibagun menggunakan Teknologi framework Flutter. Flutter sendiri meenggunakan bahasa pemrograman dart.'
+                "image": 'https://i.postimg.cc/NjHhKMX1/project5.png',
+                "deskripsi": 'Shamo Apps are projects or tasks that are used to complete Flutter class submissions on the BuildWith Angga platform. Shamo apps are multi-platform applications, which means they can be run from several OS, such as Android, iOS, Windows and also a web browser (Chrome). Shamo apps is a septau store application that sells several brands and types of shoes. Shamo Apps is built using the Flutter framework technology. Flutter itself uses the Dart programming language.'
             },
             {
-                "id": "6",
-                "title": 'Bookshelf Apps',
-                "image": 'public/project2.png',
-                "deskripsi": 'Bookshelf Apps adalah project atau tugas yang digunakan untuk menyelesaikan submission Front End Pemula di platform Dicoding. Bookshelf Apps adalah sebua apps website yang digunakan untuk menyimpan buku baru yang berisi field judul, penulis, tahun, dan memliki field yang bertipe boolean selesai di baca. terdapat duna rak buku yaitu rak buku yang belum selesai di baca dan rak buku yang sudah selesai di baca. Bookshelf Apps ini dibangung menggunakan teknologi html, css, dan javasscript murni atau tidak menggunakan framework apapun. Bookshelf Apps ini sudah menerapkan web storage untuk menyimpan data data seperti judul, penulis, tahun dan sudah dibaca, web storage nya menggunakan local storage.'
+                "id": 6,
+                "title": 'Bookshelf Api',
+                "image": 'https://i.postimg.cc/25RshDdg/project6.png',
+                "deskripsi": 'Bookshelf Api is a project or task used to complete Beginner Back End submissions on the Dicoding platform. Bookshelf Api is an Api that is used to store new books that contain fields for title, author, year, and has fields of type boolean, finished reading and many more. This Api Bookshelf was built using Node Js and Hapi technologies. Bookshelf This fire has features such as adding books, viewing all books, viewing book details, changing books, deleting books.'
             },
         ]
     }),
