@@ -8,7 +8,7 @@ export default {
     methods: {
     downloadCV() {
 
-      const downloadLink = 'https://drive.google.com/uc?export=download&id=15NecVGG1ii3Byf6ts_HgcF5LhNFjWqur';
+      const downloadLink = 'https://drive.google.com/file/d/1kboqI2W0Dumv0NNp-43DOr2xVFg07pHJ/view?usp=sharing';
       window.open(downloadLink, '_blank');
     }
   }
